@@ -1,0 +1,9 @@
+[GLOBAL]
+pants_version = "2.15.1"
+backend_packages = [
+  "pants.backend.experimental.scala",
+]
+[anonymous-telemetry]
+enabled = false
+[scala.version_for_resolve]
+jvm-default = "2.13.11"
